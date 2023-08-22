@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2023-08-22T14:32:13+09:00",
+  "id": "codelab-IoT-Learning",
+  "duration": 30,
+  "title": "IoT Learning Contents",
+  "summary": "IoTとは",
+  "source": "iot-learning.md",
+  "theme": "",
+  "status": [
+    "draft"
+  ],
+  "category": [
+    "iot"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "https://github.com/comfortdesignlab/steam-workshop-contents",
+  "url": "codelab-IoT-Learning"
+}
