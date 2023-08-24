@@ -372,9 +372,11 @@ Duration: 00:05:00
 
 1. モバイルコンピューティング推進コンソーシアム監修　『IoT技術テキスト　ーMCPC IoTシステム技術検定 対応ー』 RIC 2016.10.28 
 
-1. 活用事例１
+1. NECソリューションイノベータ　『ビッグデータとは？基礎知識と活用事例を解説』　https://www.nec-solutioninnovators.co.jp/sp/contents/column/20220318_big-data.html
 
-1. 活用事例２
+1. 一般財団法人さっぽろ産業復興財団　『冬季プローブカーデータの収集・提供およびスマート除雪サービス』　https://www.soumu.go.jp/main_content/000563022.pdf
 
-1. 活用事例３
+1. グローバル電子株式会社　『ベビーセンサー「シエスタべべ」｜保育園向け午睡チェックセンサー』 　https://siesta.gec-tokyo.co.jp/
+
+1. 総務省　『センサ利活用による水田管理｜ICT地域活性化ポータル』　https://www.soumu.go.jp/main_sosiki/joho_tsusin/top/local_support/ict/jirei/2017_037.html
 
