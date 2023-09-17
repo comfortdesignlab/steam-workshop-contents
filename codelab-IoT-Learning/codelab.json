@@ -3,7 +3,7 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2023-09-07T18:44:39Z",
+  "updated": "2023-09-17T13:19:27Z",
   "id": "codelab-IoT-Learning",
   "duration": 0,
   "title": "IoT Learning Contents",
@@ -11,7 +11,7 @@
   "source": "codelabs/iot-learning.md",
   "theme": "",
   "status": [
-    "draft"
+    "published"
   ],
   "category": [
     "iot"
@@ -19,6 +19,6 @@
   "tags": [
     "web"
   ],
-  "feedback": "https://github.com/comfortdesignlab/steam-workshop-contents",
+  "feedback": "https://docs.google.com/forms/d/e/1FAIpQLSczeKapm3sTn6f3aAAqKOqFQMMQFfpcQbVsjNLoiiEKo0th4Q/viewform?usp=sf_link",
   "url": "codelab-IoT-Learning"
 }
