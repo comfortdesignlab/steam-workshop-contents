@@ -26,7 +26,7 @@
                   id="codelab-IoT-Learning"
                   title="IoT Learning Contents"
                   environment="web"
-                  feedback-link="https://github.com/comfortdesignlab/steam-workshop-contents">
+                  feedback-link="https://docs.google.com/forms/d/e/1FAIpQLSczeKapm3sTn6f3aAAqKOqFQMMQFfpcQbVsjNLoiiEKo0th4Q/viewform?usp=sf_link">
     
       <google-codelab-step label="全体概要" duration="0">
         <p>スマートシティで利用されているデジタル技術を理解しよう💡</p>
@@ -36,11 +36,10 @@
 <ol type="1">
 <li>全体概要</li>
 <li>IoTとは</li>
-<li>IoTで実現できること</li>
-<li>活用事例の紹介</li>
-<li>データを集める</li>
+<li>IoTアプリケーション</li>
 <li>IoTプラットフォーム</li>
-<li>データ分析手法</li>
+<li>IoTとビッグデータ</li>
+<li>データ分析</li>
 <li>参考文献</li>
 </ol>
 <h2 is-upgraded><strong>得られること</strong></h2>
@@ -85,7 +84,7 @@
 <p>これらの機能を実現するために、IoTは5つのステップを行なっています。</p>
 <ol type="1">
 <li><strong>計測 <br></strong> モノや環境からデータを収集するため、センサやデバイスが使用されています。これには温度センサ、湿度センサ、動きセンサなど様々な種類のセンサが含まれています。これらのセンサは、実世界の情報をデジタルデータに変換しています。</li>
-<li><strong>収集 <br></strong> センサやデバイスが収集したデータは、インターネットを介して送信されています。無線通信や有線通信など、さまざまな方法でデータがオンラインにアップロードされています。</li>
+<li><strong>収集 <br></strong> センサやデバイスが収集したデータは、インターネットを介して送信されています。無線通信や有線通信など、さまざまな方法でデータがデータベースにアップロードされています。</li>
 <li><strong>蓄積 <br></strong> 収集されたデータは、インターネット上のサーバーやデータベースに保存されています。ここでデータは整理・管理され、必要なときにアクセスできるようになります。</li>
 <li><strong>解析 <br></strong> 蓄積されたデータを利用して、解析や処理が行われます。データの分析を行うことで、データからパターンや特徴を見つけ出しています。</li>
 <li><strong>活用 <br></strong> 解析で得られた結果を基に、適切なアクションを起こし活用していきます。例えば、スマートホームで室温が高い場合にエアコンが自動的に作動する、交通システムで渋滞が予測された場合に別ルートが提案されるなどがあります。</li>
@@ -183,20 +182,7 @@
 <p>IoTデバイスは、私たちの日常生活から様々なデータを収集します。 例えば、気温、湿度、位置情報、人の行動パターンなどがその一例です。 他にも基幹系の業務システムや、情報システムから抽出される情報、あるいはそれらのシステムの操作によって発生した情報など、様々なデバイス、センサからリアルタイムに発生する計測データなどがあります。</p>
 <p>このように、<strong>日々生成される多種多様なデータ群</strong> のことを <strong>ビッグデータ</strong> と言います。</p>
 <p><strong>ビックデータとは: <br></strong> 人間では全体を把握することが困難な巨大なデータ群のことです。 明確な定義は存在しませんが、一般的にはVolume（量）、Variety（種類）、Velocity（速度あるいは頻度）の <strong>「3つのV」</strong> を高いレベルで備えていることが特徴とされています。</p>
-<table>
-<tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"><p>ビッグデータの3つの特徴</p>
-</td></tr>
-<tr><td colspan="1" rowspan="1"><p>Volume（量）</p>
-</td><td colspan="1" rowspan="1"><p>膨大な容量を持つ（数テラバイト〜数ペタバイト）</p>
-</td></tr>
-<tr><td colspan="1" rowspan="1"><p>Variety（種類）</p>
-</td><td colspan="1" rowspan="1"><p>列と行によって表現されるデータだけでなく、テキスト、音声、画像、動画、位置情報など多様な種類がある</p>
-</td></tr>
-<tr><td colspan="1" rowspan="1"><p>Velocity（速度）</p>
-</td><td colspan="1" rowspan="1"><p>発生速度や頻度が高く、その処理にもスピードが求められる</p>
-</td></tr>
-</table>
-<p>※画像に置き換える予定です</p>
+<p class="image-container"><img alt="ビッグデータの特徴" src="img/20d9275e7d0d9259.jpg"></p>
 <p><strong>収集可能なビッグデータの例</strong></p>
 <ul>
 <li>マルチメディアデータ</li>
@@ -239,7 +225,7 @@
 <p class="image-container"><img style="width: 400.00px" src="img/b4e2f5029be0e442.jpeg"></p>
 <h3 is-upgraded><strong>ビッグデータを活用するには</strong></h3>
 <p>ビッグデータを活用する際には、<strong>収集したデータをどのように分析し活用するのか</strong> 目的を設定することが大切です。 設定した課題を解決するために必要となるデータを収集し、データをクレンジング（前処理）、蓄積、分析の流れで行います。</p>
-<p><img alt="データの流れ" src="img/31bdb3cd9fae18dc.jpg"> ※画像はデータ分析の流れを示す図に差し替え予定</p>
+<p class="image-container"><img alt="データの流れ" src="img/6fe7ce3471ddbf3c.jpg"></p>
 <h3 is-upgraded><strong>データのクレンジング</strong></h3>
 <p>データのクレンジングは、データ分析において、データの品質を向上させるための重要なステップです。 データのをクレンジングする手順について紹介します。</p>
 <ol type="1">
@@ -269,7 +255,7 @@
 <ol type="1" start="5">
 <li><strong>分割 <br></strong> データセットを、トレーニングデータ、検証データ、テストデータの3つに分割します。</li>
 </ol>
-<p>※イメージ画像を挿入予定</p>
+<p class="image-container"><img alt="データクレンジング" src="img/462290a6953b9c35.jpg"></p>
 <h3 is-upgraded><strong>分析手法の選択</strong></h3>
 <p>データ分析には大きく分けて <strong>統計処理</strong> と <strong>機械学習</strong> の2つがあります。</p>
 <ul>
@@ -286,22 +272,35 @@
 <li><strong>アソシエーション分析 <br></strong> 「ある行動を取る人は、この行動を取る傾向にある」というように、行動間の関連性を発掘する分析手法です。 「この商品を買った人は、こんな商品も買っています」といったECサイトのレコメンド機能のベースとなる技術です。 大量の商品を扱うECサイトにとっては、顧客体験（CX）の向上という観点でも欠かせない技術です。</li>
 </ul>
 <h3 is-upgraded><strong>活用事例</strong></h3>
-<ol type="1">
-<li>タイトル 詳細がここに入ります。</li>
-</ol>
+<p><strong>1. データの活用による交通、雪の対策 <br></strong> 気象データや徐排雪実施記録などのほかにごみ収集車などに搭載したセンサーから得られた路面情報などを利用し、路面状況を原因とした渋滞が発生しやすい地域を特定し、スポット的な除排雪を行いました。</p>
 <table>
 <tr><td colspan="2" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr>
-<tr><td colspan="1" rowspan="1"><p>目的</p>
-</td><td colspan="1" rowspan="1"><p>テキスト</p>
+<tr><td colspan="1" rowspan="1"><p><strong>目的</strong></p>
+</td><td colspan="1" rowspan="1"><p>取得したデータを分析し、渋滞ポイントの特定を行い、スポット的な徐耕雪を実施</p>
 </td></tr>
-<tr><td colspan="1" rowspan="1"><p>利用したデータ</p>
-</td><td colspan="1" rowspan="1"><p>テキスト</p>
+<tr><td colspan="1" rowspan="1"><p><strong>利用したデータ</strong></p>
+</td><td colspan="1" rowspan="1"><p>静的データ（除排雪実施記録、気象データなど）、センサデータ（現在の路面状況、加速度）、位置情報</p>
 </td></tr>
-<tr><td colspan="1" rowspan="1"><p>結果</p>
-</td><td colspan="1" rowspan="1"><p>テキスト</p>
+<tr><td colspan="1" rowspan="1"><p><strong>結果</strong></p>
+</td><td colspan="1" rowspan="1"><p>渋滞、交通機関の乱れの緩和</p>
 </td></tr>
 </table>
-<p>※事例集からいくつか掲載できればと思っています。</p>
+<p class="image-container"><img alt="事例1" src="img/35ebc48c829b83a1.png"><br><br></p>
+<p><strong>2. ICTを活用した24時間リアルタイム赤潮監視体制の構築 <br></strong> 赤潮の初期発生地域に自動昇降式観測機を設置すること、24時間ほぼリアルタイムで赤潮の監視が可能となり、緊急での赤潮の発生でも速やかに対応することが可能となった。</p>
+<table>
+<tr><td colspan="2" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr>
+<tr><td colspan="1" rowspan="1"><p><strong>目的</strong></p>
+</td><td colspan="1" rowspan="1"><p>赤潮初期発生地域に、２４時間ほぼリアルタイムで監視ができる自動昇降式観測機を設置し、HP上でだれでも閲覧可能とした。</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p><strong>利用したデータ</strong></p>
+</td><td colspan="1" rowspan="1"><p>通信機能付きカメラ（リアルタイム動画データ）</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p><strong>結果</strong></p>
+</td><td colspan="1" rowspan="1"><p>赤潮の監視が２４時間可能になり、緊急の赤潮の発生にも対応することが可能となった。</p>
+</td></tr>
+</table>
+<p class="image-container"><img alt="事例2" src="img/ccd8b1d17fbd0f54.png"></p>
+<p>他の事例は事例集を見てみてください！</p>
 <h3 is-upgraded><strong>IoTとAI</strong></h3>
 <p>AIとは、コンピュータがデータから学習し自動的に意思決定を行える能力を指します。 AIは大量のデータを分析し、パターンや関連性を発見し、予測や判断を行うことができます。</p>
 <p>IoTで収集されるデータが、AIの学習と分析に活用されることで、新たな洞察や価値が生まれます。 IoTが提供するビッグデータは、AIの能力を引き出すための重要な情報源となり、私たちの生活やビジネスの向上に大いに寄与することが期待できます。 次の講義では、これらの概念を深く理解し、AIとビッグデータの具体的な応用について詳しく学びましょう。</p>
@@ -315,6 +314,8 @@
 <li>NECソリューションイノベータ　『ビッグデータとは？基礎知識と活用事例を解説』　https://www.nec-solutioninnovators.co.jp/sp/contents/column/20220318_big-data.html</li>
 <li>NTT東日本　『ビッグデータとは？基礎知識やどう活用されるかを分かりやすく解説』　https://business.ntt-east.co.jp/content/cloudsolution/column-291.html</li>
 <li>総務省　『平成24年度版　情報通信白書　ビックデータとは何か』　https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h24/html/nc121410.html</li>
+<li>一般財団法人さっぽろ産業復興財団　『冬季プローブカーデータの収集・提供およびスマート除雪サービス』　https://www.soumu.go.jp/main_content/000563022.pdf</li>
+<li>農林水産研究指導センター　『ICTを活用した24時間リアルタイム赤潮監視体制の構築』　https://www.pref.oita.jp/uploaded/life/1053120_2835210_misc.pdf</li>
 </ol>
 
 
