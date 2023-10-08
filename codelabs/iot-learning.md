@@ -114,9 +114,11 @@ IoTアプリケーションは、物理的なデバイスやセンサー、ソ�
 **ウェアラブルデバイス** <br />
 スマートウォッチやフィットネストラッカーがこれに該当し、ユーザーの健康や活動をリアルタイムでモニタリングします。
 
-<video id="LijTFPi2z4c"></video>
+<video id="E2mKGTCQENA" t=25></video>
 
-出典：[Fitbit Japan 「注目の新商品、Fitbit Sense 2 のご紹介」](https://youtu.be/LijTFPi2z4c?si=-Khccgvj_MPMFfNo)
+（対象箇所　0:24〜）
+
+出典：[NTT東日本「IoT活用事例（物流倉庫様との取り組み）」](https://www.youtube.com/watch?v=E2mKGTCQENA)
 
 **スマートシティ** <br />
 交通管理、ゴミ収集、公共照明など、都市のインフラを最適化するためのIoTアプリケーション。
@@ -128,9 +130,11 @@ IoTアプリケーションは、物理的なデバイスやセンサー、ソ�
 **産業IoT（IIoT）** <br />
 工場や製造施設での機械のモニタリングやメンテナンス、生産ラインの最適化など。
 
-<video id="1u_LGpmuptc"></video>
+<video id="5ssWQ_AZ8B4"></video>
 
-出典：[KDDI 「KDDI IoTクラウド ～工場パッケージ～」](https://youtu.be/1u_LGpmuptc?si=LUij6lauAdjdb3O7)
+（対象箇所　0:24〜）
+
+出典：[NTT東日本「IoT活用事例（製造業様との取り組み）」](https://www.youtube.com/watch?v=5ssWQ_AZ8B4)
 
 **農業** <br />
 土壌の湿度や気温をモニタリングして、最適な水や肥料の供給を自動化します。
@@ -143,6 +147,8 @@ IoTアプリケーションは、物理的なデバイスやセンサー、ソ�
 患者の健康状態をリモートでモニタリングするデバイスや、医薬品の在庫管理など。
 
 <video id="MPQwGPLNeto"></video>
+
+（対象箇所　1:14〜）
 
 出典：[総務省 「介護におけるIoT活用事例紹介」](https://youtu.be/MPQwGPLNeto?si=Ao4yvXbRoYc_cemW)
 
